@@ -4,8 +4,10 @@
 
 
 import openai
-openai.organization = "org-uwKtM9YNqsMdrCqUQkOWBLgR"
-api_key = "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"
+openai.organization = "YOUR ORGANIZATION CODE"
+#Please insert your organization code, if you don't have one, please look up in the official website of the OpenAI.
+api_key = "YOUR_API_KEY"
+#Please insert your own API key, just as the progress above.
 openai.api_key  = api_key
 def askChatGPT(messages):
     MODEL = "gpt-3.5-turbo"
